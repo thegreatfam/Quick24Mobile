@@ -1,0 +1,616 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+/* App Container */
+#app {
+     max-width: 450px; /* Increased width to fit the content */
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    font-size: 16px;
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    color: #0056b3;
+}
+
+.app-logo {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Landing Page */
+.home-logo,
+.frontpage-image {
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.button-container button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.button-container button:active {
+    transform: scale(0.95);
+}
+
+/* Login Form */
+.login-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.login-form button:active {
+    transform: scale(0.95);
+}
+
+/* Store Catalog */
+.grid-container {
+    display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Adjusted to 2 columns for better fit */
+        gap: 15px;
+        margin-top: 20px;
+
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.product p {
+    font-size: 12px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Quantity Controls */
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.quantity-controls button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quantity-controls button:hover {
+    background-color: #0056b3;
+}
+
+.quantity-controls span {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Checkout Page */
+.checkout-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.checkout-item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.checkout-item div {
+    text-align: left;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-item h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.checkout-item p {
+    margin: 2px 0;
+    font-size: 12px;
+    color: #555;
+}
+
+/* Align Quantity Under Product Name */
+.checkout-item .quantity {
+    text-align: left;
+    margin-top: 5px;
+}
+
+/* Align Total Price to the Right */
+.checkout-item .product-total {
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Total Amount Styling */
+.total-amount {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Checkout Form */
+.checkout-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group select,
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Buttons (Global Style) */
+button {
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Proceed to Checkout Button */
+.checkout-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Empty Cart Message */
+#checkout-items p {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+
+.confirmation-details {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-details h3 {
+    margin-bottom: 10px;
+}
+
+.confirmation-details p {
+    margin: 5px 0;
+}
+
+.qr-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.qr-code {
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+}
+
+.checkout-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-button:hover {
+    background-color: #0056b3;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    height: 100%; /* Full height of the phone frame */
+    background: #333;
+    color: #fff;
+    position: absolute; /* Overlay on top of content */
+    transform: translateX(-250px); /* Hidden by default */
+    top: 0;
+    transition: transform 0.3s ease; /* Smooth sliding effect */
+    padding: 70px 20px 20px; /* Account for the hamburger menu */
+    z-index: 1000; /* Ensure it overlays other elements */
+    border-radius: 10px 0 0 10px; /* Match the phone's rounded corners */
+    display: none; /* Fully hide when closed */
+    overflow-y: auto; /* Allow scrolling for long content */
+}
+.sidebar.visible {
+    transform: translateX(0); /* Slide into view */
+    display: block; /* Make it visible when open */
+}
+
+/* Hamburger Menu Icon */
+.hamburger-menu {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    position: absolute; /* Position relative to #app */
+    left: 20px;
+    top: 20px;
+    z-index: 1100; /* Ensure it stays clickable above the sidebar */
+}
+
+/* Sidebar Buttons */
+.sidebar button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #444;
+    border: none;
+    color: #fff;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.sidebar button:hover {
+    background: #555;
+}
+
+/* Content (No Contraction) */
+.content {
+    padding: 20px;
+    margin-top: 70px; /* Leave space for the hamburger menu */
+}
+
+/* Toggle Switch Styles */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 25px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 21px;
+    width: 21px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #4caf50;
+}
+
+input:checked + .slider:before {
+    transform: translateX(24px);
+}
+.card-logo {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+/* Three Dots Menu Button */
+.menu-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #007bff;
+    margin-left: 10px;
+    position: relative;
+}
+
+.menu-button:hover {
+    color: #0056b3;
+}
+
+/* Dropdown Menu for Card Options */
+.card-menu {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.card-menu button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.card-menu button:hover {
+    background-color: #f5f5f5;
+}
+/* Add New Card Section */
+#add-card-form {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#add-card-form h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#add-card-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#add-card-form select,
+#add-card-form input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#add-card-form input::placeholder {
+    color: #aaa;
+    font-size: 12px;
+}
+
+#add-card-form button {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#add-card-form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+#add-card-form button:active {
+    transform: scale(0.95);
+}
+
+/* Card Preview Section */
+.card-preview {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-preview img {
+    width: 40px;
+    height: auto;
+    border-radius: 5px;
+}

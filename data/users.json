@@ -1,0 +1,114 @@
+[
+  {
+    "username": "Maged Fam",
+    "wallet": 100,
+    "creditCards": [
+      {
+        "cardNumber": "**** **** **** 3456",
+        "expiry": "12/25",
+        "cardType": "Visa"
+      },
+      {
+        "cardNumber": "**** **** **** 7654",
+        "expiry": "07/26",
+        "cardType": "MasterCard"
+      }
+    ]
+  },
+  {
+    "username": "Yassin Saleh",
+    "wallet": 100,
+    "creditCards": [
+      {
+        "cardNumber": "**** **** **** 3456",
+        "expiry": "12/25",
+        "cardType": "Visa"
+      },
+      {
+        "cardNumber": "**** **** **** 7654",
+        "expiry": "07/26",
+        "cardType": "MasterCard"
+      }
+    ]
+  },
+  {
+    "username": "Omar El Ashmawy",
+    "wallet": 100,
+    "creditCards": [
+      {
+        "cardNumber": "**** **** **** 3456",
+        "expiry": "12/25",
+        "cardType": "Visa"
+      },
+      {
+        "cardNumber": "**** **** **** 7654",
+        "expiry": "07/26",
+        "cardType": "MasterCard"
+      }
+    ]
+  },
+  {
+    "username": "Kemzo",
+    "wallet": 100,
+    "creditCards": [
+      {
+        "cardNumber": "**** **** **** 3456",
+        "expiry": "12/25",
+        "cardType": "Visa"
+      },
+      {
+        "cardNumber": "**** **** **** 7654",
+        "expiry": "07/26",
+        "cardType": "MasterCard"
+      }
+    ]
+  },
+  {
+    "username": "Guest",
+    "wallet": 100,
+    "creditCards": [
+      {
+        "cardNumber": "**** **** **** 3456",
+        "expiry": "12/25",
+        "cardType": "Visa"
+      },
+      {
+        "cardNumber": "**** **** **** 7654",
+        "expiry": "07/26",
+        "cardType": "MasterCard"
+      }
+    ]
+  },
+  {
+    "username": "Hassan ElAshry",
+    "wallet": 100,
+    "creditCards": [
+      {
+        "cardNumber": "**** **** **** 3456",
+        "expiry": "12/25",
+        "cardType": "Visa"
+      },
+      {
+        "cardNumber": "**** **** **** 7654",
+        "expiry": "07/26",
+        "cardType": "MasterCard"
+      }
+    ]
+  },
+  {
+    "username": "Selim",
+    "wallet": 100,
+    "creditCards": [
+      {
+        "cardNumber": "**** **** **** 3456",
+        "expiry": "12/25",
+        "cardType": "Visa"
+      },
+      {
+        "cardNumber": "**** **** **** 7654",
+        "expiry": "07/26",
+        "cardType": "MasterCard"
+      }
+    ]
+  }
+]

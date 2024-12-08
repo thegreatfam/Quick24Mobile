@@ -1,0 +1,272 @@
+[
+  {
+    "orderId": 1,
+    "customerName": "Maged Fam",
+    "items": [
+      {
+        "productId": 1,
+        "productName": "RedBull",
+        "quantity": 2,
+        "price": 45
+      },
+      {
+        "productId": 4,
+        "productName": "Chips",
+        "quantity": 1,
+        "price": 15
+      }
+    ],
+    "totalPrice": 105,
+    "pickupTime": "2024-11-16T15:30:00",
+    "instructions": "No ice in drinks.",
+    "lockerNumber": 7,
+    "location": "Huss Plaza",
+    "status": "Ready for Pickup"
+  },
+  {
+    "orderId": 2,
+    "customerName": "Yassin Saleh",
+    "items": [
+      {
+        "productId": 3,
+        "productName": "Water 50ml",
+        "quantity": 3,
+        "price": 5
+      },
+      {
+        "productId": 2,
+        "productName": "Molto",
+        "quantity": 2,
+        "price": 20
+      }
+    ],
+    "totalPrice": 55,
+    "pickupTime": "2024-11-16T16:00:00",
+    "instructions": "Pack separately.",
+    "lockerNumber": 5,
+    "location": "SSE Steps",
+    "status": "In Progress"
+  },
+  {
+    "orderId": 3,
+    "customerName": "Omar El Ashmawy",
+    "items": [
+      {
+        "productId": 5,
+        "productName": "Hohoz",
+        "quantity": 4,
+        "price": 10
+      },
+      {
+        "productId": 6,
+        "productName": "Clorets",
+        "quantity": 2,
+        "price": 10
+      },
+      {
+        "productId": 7,
+        "productName": "Pepsi",
+        "quantity": 1,
+        "price": 17
+      }
+    ],
+    "totalPrice": 77,
+    "pickupTime": "2024-11-16T16:45:00",
+    "instructions": "Please use eco-friendly packaging.",
+    "lockerNumber": 3,
+    "location": "SSE Plaza",
+    "status": "Completed"
+  },
+  {
+    "orderId": 1732134046905,
+    "customerName": "Kemzo",
+    "items": [
+      {
+        "productId": 1,
+        "productName": "RedBull",
+        "quantity": 2,
+        "price": 45
+      },
+      {
+        "productId": 6,
+        "productName": "Clorets",
+        "quantity": 2,
+        "price": 10
+      }
+    ],
+    "totalPrice": 110,
+    "pickupTime": "2024-11-20T08:10:00.000Z",
+    "instructions": "",
+    "lockerNumber": 5,
+    "location": "SSE Steps",
+    "status": "In Progress"
+  },
+  {
+    "orderId": 1732136755679,
+    "customerName": "Guest",
+    "items": [
+      {
+        "productId": 1,
+        "productName": "RedBull",
+        "quantity": 1,
+        "price": 45
+      },
+      {
+        "productId": 2,
+        "productName": "Molto",
+        "quantity": 2,
+        "price": 20
+      },
+      {
+        "productId": 3,
+        "productName": "Water 50ml",
+        "quantity": 1,
+        "price": 5
+      },
+      {
+        "productId": 4,
+        "productName": "Chips",
+        "quantity": 1,
+        "price": 15
+      },
+      {
+        "productId": 7,
+        "productName": "Pepsi",
+        "quantity": 1,
+        "price": 17
+      }
+    ],
+    "totalPrice": 122,
+    "pickupTime": "2024-11-20T20:11:00.000Z",
+    "instructions": "",
+    "lockerNumber": 8,
+    "location": "SSE Steps",
+    "status": "In Progress"
+  },
+  {
+    "orderId": 1732189710208,
+    "customerName": "Hassan ElAshry",
+    "items": [
+      {
+        "productId": 3,
+        "productName": "Water 50ml",
+        "quantity": 1,
+        "price": 5
+      },
+      {
+        "productId": 6,
+        "productName": "Clorets",
+        "quantity": 1,
+        "price": 10
+      }
+    ],
+    "totalPrice": 15,
+    "pickupTime": "2024-11-21T09:20:00.000Z",
+    "instructions": "use eco friendly packaging",
+    "lockerNumber": 8,
+    "location": "SSE Plaza",
+    "status": "In Progress"
+  },
+  {
+    "orderId": 1732191676978,
+    "customerName": "Selim",
+    "items": [
+      {
+        "productId": 2,
+        "productName": "Molto",
+        "quantity": 2,
+        "price": 20
+      }
+    ],
+    "totalPrice": 40,
+    "pickupTime": "2024-11-21T12:21:00.000Z",
+    "instructions": "",
+    "lockerNumber": 4,
+    "location": "SSE Plaza",
+    "status": "In Progress"
+  },
+  {
+    "orderId": 1732196145832,
+    "customerName": "Maged Fam",
+    "items": [
+      {
+        "productId": 1,
+        "productName": "RedBull",
+        "quantity": 1,
+        "price": 45
+      },
+      {
+        "productId": 2,
+        "productName": "Molto",
+        "quantity": 1,
+        "price": 20
+      },
+      {
+        "productId": 5,
+        "productName": "Hohoz",
+        "quantity": 1,
+        "price": 10
+      }
+    ],
+    "totalPrice": 75,
+    "pickupTime": "2024-11-21T10:10:00.000Z",
+    "instructions": "",
+    "lockerNumber": 7,
+    "location": "Huss Plaza",
+    "status": "In Progress"
+  },
+  {
+    "orderId": 1733683713075,
+    "customerName": "Maged Fam",
+    "items": [
+      {
+        "productId": 1,
+        "productName": "RedBull",
+        "quantity": 1,
+        "price": 45
+      },
+      {
+        "productId": 2,
+        "productName": "Molto",
+        "quantity": 1,
+        "price": 20
+      },
+      {
+        "productId": 5,
+        "productName": "Hohoz",
+        "quantity": 1,
+        "price": 10
+      }
+    ],
+    "totalPrice": 75,
+    "pickupTime": "2024-12-08T09:11:00.000Z",
+    "instructions": "",
+    "lockerNumber": 9,
+    "location": "SSE Steps",
+    "status": "In Progress"
+  },
+  {
+    "orderId": 1733688530605,
+    "customerName": "Maged Fam",
+    "items": [
+      {
+        "productId": 1,
+        "productName": "RedBull",
+        "quantity": 2,
+        "price": 45
+      },
+      {
+        "productId": 4,
+        "productName": "Chips",
+        "quantity": 6,
+        "price": 15
+      }
+    ],
+    "totalPrice": 180,
+    "pickupTime": "2024-12-07T22:12:00.000Z",
+    "instructions": "",
+    "lockerNumber": 3,
+    "location": "SSE Plaza",
+    "status": "In Progress"
+  }
+]

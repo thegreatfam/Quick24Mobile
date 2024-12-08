@@ -1,0 +1,9 @@
+[
+    { "id": 1, "name": "RedBull", "price": 45, "image": "assets/redBullRed.jpg", "stock": 100 },
+    { "id": 2, "name": "Molto", "price": 20, "image": "assets/molto.jpg", "stock": 50 },
+    { "id": 3, "name": "Water 50ml", "price": 5, "image": "assets/waterBottle.jpg", "stock": 200 },
+    { "id": 4, "name": "Chips", "price": 15, "image": "assets/chips.jpg", "stock": 75 },
+    { "id": 5, "name": "Hohoz", "price": 10, "image": "assets/hohoz.jpg", "stock": 90 },
+    { "id": 6, "name": "Clorets", "price": 10, "image": "assets/clorets.jpg", "stock": 40 },
+    { "id": 7, "name": "Pepsi", "price": 17, "image": "assets/pepsi.jpg", "stock": 60 }
+]
